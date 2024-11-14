@@ -1,0 +1,97 @@
+.banner{
+    background: url("https://hypeabis.id/assets/content/20220105131910000000tuguphinemi.jpeg") 
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 25%;
+    color: #fff;
+}
+
+.card-body{
+  height: 400px;
+    overflow: scroll;
+   
+}
+
+
+
+body {
+    background-color: #ffffff;
+}
+
+.header {
+    background-image: url(img/Header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    padding: 150px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.header h1 {
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.containermt-5 {
+    margin-top: 20px;
+}
+
+.scrollable {
+    height: 200px;
+    overflow: scroll;
+    
+}
+
+.col-md-6 {
+    overflow: hidden;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+
+.row{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  }
+  .column{
+    grid-column: span 3;
+    width:auto;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    gap:1.2rem;
+  
+  }
